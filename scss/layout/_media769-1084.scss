@@ -1,0 +1,38 @@
+@media (max-width: 1393px)  {
+    header section div h1 {
+    font-size: 5;
+    }
+    header section div h2,
+    header section div h3 {
+    font-size: 3rem;
+    }
+    .navbar-brand {
+    font-size: 2rem;
+    }
+    #carouselExampleCaptions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 20px;
+        min-height: auto;
+    }
+    main div h2 {
+    width: 70%;
+    }
+    .card-title {
+    font-size: 2rem;
+    }
+    .card-text {
+        font-size: 22px;
+        overflow: auto;
+        height: 80%;
+        }
+    .futercontact {
+    font-size: 1.5rem;
+    }
+}

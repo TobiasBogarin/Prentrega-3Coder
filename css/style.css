@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:ital@1&family=Yatra+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'future';
+  src: url("../assets/fonts/Future Shit.otf"); }
+
+@font-face {
+  font-family: 'grafitti';
+  src: url("../assets/fonts/adrip1.ttf"); }
+
+@font-face {
+  font-family: 'japan';
+  src: url("../assets/fonts/Old Japanese.otf"); }
+
+header section div h1, header section div h2 {
+  display: flex;
+  text-align: center;
+  font-size: 6.25rem;
+  align-items: center;
+  justify-content: center;
+  font-family: 'grafitti';
+  color: #af00af; }
+
+header section div h3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'japan';
+  color: #b900a0;
+  font-weight: bold; }
+
+.navbar {
+  background-color: black !important; }
+
+.nav-link {
+  color: #0f060d !important;
+  font-family: 'roboto';
+  font-size: 1.25rem !important; }
+  .nav-link :hover {
+    color: #a1008c; }
+
+.navbar-brand {
+  color: #b2068d !important;
+  font-family: 'grafitti';
+  font-size: 4rem !important; }
+
+header {
+  background-color: rgba(0, 0, 0, 0.874); }
+
+body {
+  background-image: url("../assets/images/fondopagina.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 112.5rem; }
+
+#carouselExampleCaptions {
+  margin-top: 5rem;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px; }
+
+main div h2 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Japan';
+  color: #d80000;
+  padding: 1.375rem;
+  margin-top: 4rem;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px; }
+
+.card-img-overlay {
+  padding: 15px; }
+
+.card-text {
+  font-size: 1rem;
+  overflow: auto;
+  height: 300px; }
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'grafitti';
+  font-size: 3.5rem; }
+
+.card {
+  margin-top: 1.875rem; }
+
+.mainclase {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0; }
+
+.section-main {
+  background-color: #545454;
+  color: black;
+  width: 50%;
+  padding: 1.25rem;
+  text-align: center;
+  display: grid;
+  place-items: center; }
+
+.section-main h2 {
+  color: #ab4c90;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto';
+  text-decoration: underline; }
+
+.hola {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Japan';
+  font-size: .75rem;
+  line-height: 1.5;
+  padding: 1.25rem; }
+
+.section-main p {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1.25rem; }
+
+.formulario {
+  max-width: 800px;
+  /* You can adjust this value */
+  margin: 0 auto;
+  /* Center the form */
+  font-size: 1rem; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: .875rem; }
+
+fieldset {
+  width: 100%;
+  border: none;
+  font-size: .875rem; }
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: .875rem; }
+
+.column {
+  flex: 1 1 calc(50% - 10px);
+  /* Take up half the width, minus a small gap */
+  margin-bottom: 20px; }
+
+input[type="text"],
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  color: white;
+  border: none; }
+
+input[type="reset"] {
+  background-color: #6c757d;
+  /* Bootstrap secondary color */ }
+
+@media (max-width: 600px) {
+  .column {
+    flex: 1 1 100%;
+    /* Take up the full width on small screens */ } }
+
+.formularios {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50%;
+  padding: 1.375rem;
+  margin-top: 4rem;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px; }
+
+.legends {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto'; }
+
+.small-img {
+  max-width: 50% !important; }
+
+.custom-card {
+  font-family: 'Roboto' !important;
+  font-size: 1rem !important; }
+
+.custom-text {
+  font-size: 1.5rem !important;
+  font-family: 'Roboto' !important; }
+
+.footer-fondo {
+  background-color: black;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem; }
+
+.footer-posicion {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 35vh;
+  width: auto; }
+
+.footer-content {
+  padding: 2rem; }
+
+.futercontact {
+  background-color: blanchedalmond;
+  color: black;
+  font-size: 2.625rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'future'; }
+
+.twt {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none; }
+
+.mail {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none; }
+
+.tel {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none; }
+
+.ig {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none; }
+
+@media (max-width: 480px) {
+  .footer-posicion {
+    align-items: center;
+    min-height: auto;
+    height: 65vh;
+    width: auto; } }
+
+@media (max-width: 768px) {
+  .footer-posicion {
+    align-items: center;
+    min-height: auto;
+    height: 65vh;
+    width: auto; } }
+
+@media (min-width: 769px) and (max-width: 1084px) {
+  .footer-posicion {
+    align-items: center;
+    min-height: auto;
+    height: 65vh;
+    width: auto; } }
+
+@media (max-width: 480px) {
+  header section div h1, header section div h2 {
+    font-size: 2rem; }
+  header section div h2,
+  header section div h3 {
+    font-size: .625rem; }
+  .navbar-brand {
+    font-size: 1rem; }
+  #carouselExampleCaptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: auto; }
+  main div h2 {
+    width: 50%; }
+  .card-title {
+    font-size: 3rem; }
+  .card-text {
+    font-size: 10px;
+    overflow: auto;
+    height: 80%; }
+  .futercontact {
+    font-size: 1.5rem; } }
+
+@media (max-width: 768px) {
+  header section div h1, header section div h2 {
+    font-size: 7rem; }
+  header section div h2,
+  header section div h3 {
+    font-size: 2rem; }
+  .navbar-brand {
+    font-size: 2rem; }
+  #carouselExampleCaptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: auto; }
+  main div h2 {
+    width: 70%; }
+  .card-title {
+    font-size: 2rem; }
+  .card-text {
+    font-size: 12px;
+    overflow: auto;
+    height: 80%; }
+  .futercontact {
+    font-size: 1.5rem; } }
+
+@media (max-width: 1393px) {
+  header section div h1, header section div h2 {
+    font-size: 5; }
+  header section div h2,
+  header section div h3 {
+    font-size: 3rem; }
+  .navbar-brand {
+    font-size: 2rem; }
+  #carouselExampleCaptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: auto; }
+  main div h2 {
+    width: 70%; }
+  .card-title {
+    font-size: 2rem; }
+  .card-text {
+    font-size: 22px;
+    overflow: auto;
+    height: 80%; }
+  .futercontact {
+    font-size: 1.5rem; } }
