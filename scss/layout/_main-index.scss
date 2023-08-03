@@ -1,10 +1,11 @@
 body {
-    background-image: url('../assets/images/fondopagina.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 112.5rem;
+    body {
+        background-image: url('../assets/images/fondo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
 }
 #carouselExampleCaptions {
     margin-top: 5rem;  
