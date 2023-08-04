@@ -189,8 +189,9 @@ input[type="reset"] {
 .custom-card {
     min-height: 400px; 
     background-image: url('../assets/images/cardfondo.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .small-img {
     min-height: 100%; 
