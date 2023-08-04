@@ -98,8 +98,8 @@ main {
     padding: 1.25rem;
 }
 .formulario {
-    max-width: 800px; /* You can adjust this value */
-    margin: 0 auto; /* Center the form */
+    max-width: 800px; 
+    margin: 0 auto; 
     font-size: 1rem;
 }
 
@@ -124,7 +124,7 @@ fieldset {
 }
 
 .column {
-    flex: 1 1 calc(50% - 10px); /* Take up half the width, minus a small gap */
+    flex: 1 1 calc(50% - 10px);
     margin-bottom: 20px;
 }
 
@@ -139,18 +139,18 @@ input[type="reset"] {
 input[type="submit"],
 input[type="reset"] {
     cursor: pointer;
-    background-color: #007bff; /* Bootstrap primary color */
+    background-color: #007bff; 
     color: white;
     border: none;
 }
 
 input[type="reset"] {
-    background-color: #6c757d; /* Bootstrap secondary color */
+    background-color: #6c757d; 
 }
 
 @media (max-width: 600px) {
     .column {
-        flex: 1 1 100%; /* Take up the full width on small screens */
+        flex: 1 1 100%;
     }
 }
 .formularios {
@@ -185,5 +185,15 @@ input[type="reset"] {
 .custom-text {
     font-size: 1.5rem !important; 
     font-family: 'Roboto' !important;
+}
+.custom-card {
+    min-height: 400px; 
+    background-image: url('../assets/images/cardfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.small-img {
+    min-height: 100%; 
+    object-fit: cover; 
 }
 
