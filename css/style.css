@@ -16,6 +16,8 @@
   font-family: 'japan';
   src: url("../assets/fonts/Old Japanese.otf"); }
 
+
+
 header section div h1, header section div h2 {
   display: flex;
   text-align: center;
@@ -54,7 +56,6 @@ header {
   background-color: rgba(0, 0, 0, 0.874); }
 
 body {
-  background-image: url("../assets/images/fondopagina.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
