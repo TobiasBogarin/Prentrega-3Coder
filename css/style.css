@@ -230,10 +230,6 @@ input[type="reset"] {
   background-size: cover;
   background-attachment: fixed; }
 
-.small-img {
-  min-height: 100%;
-  object-fit: cover; }
-
 .footer-fondo {
   background-color: black;
   width: 100%;
