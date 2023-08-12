@@ -1,23 +1,4 @@
-.promo-animation {
-    background-color: rgba(255,255,255,0.8); /* Fondo semitransparente blanco para destacar el texto */
-    color: #000; /* Color del texto negro */
-    padding: 5px 15px; /* Espaciado alrededor del texto */
-    position: absolute; /* Para posicionar exactamente donde queremos */
-    top: 10px; /* Posicionamiento desde la parte superior */
-    right: 100%; /* Inicia completamente fuera del área visible a la derecha */
-    white-space: nowrap; /* Evita que el texto se envuelva a la siguiente línea */
-    overflow: hidden; /* Esconde cualquier parte del texto que exceda el contenedor */
-    animation: scrollText 10s linear infinite; /* Aplicar la animación */
-}
 
-@keyframes scrollText {
-    0% {
-        right: 100%; /* Inicio de la animación, completamente fuera de la vista a la derecha */
-    }
-    100% {
-        right: -100%; /* Final de la animación, completamente fuera de la vista a la izquierda */
-    }
-}
 header {
     section {
         div {
@@ -66,5 +47,24 @@ header {
 header {
     background-color: rgba(0, 0, 0, 0.874);
 }
+.header-content {
+    position: relative; /* Esto asegura que los elementos dentro de este contenedor se apilen correctamente */
+    z-index: 2; /* Asegúrate de que esto sea mayor que el z-index de .promo-animation */
+}
+.promo {
+    color: white;
+    position: absolute;
+    top: 10px; /* Ajusta según la necesidad */
+    white-space: nowrap; /* Evita que el texto se envuelva a la línea siguiente */
+    animation: slidePromo 10s linear infinite;
+}
 
+@keyframes slidePromo {
+    from {
+        transform: translateX(-100%); /* Inicia desde el extremo izquierdo */
+    }
+    to {
+        transform: translateX(100%); /* Termina en el extremo derecho */
+    }
+}
 
