@@ -1,3 +1,23 @@
+.promo-animation {
+    background-color: rgba(255,255,255,0.8); /* Fondo semitransparente blanco para destacar el texto */
+    color: #000; /* Color del texto negro */
+    padding: 5px 15px; /* Espaciado alrededor del texto */
+    position: absolute; /* Para posicionar exactamente donde queremos */
+    top: 10px; /* Posicionamiento desde la parte superior */
+    right: 100%; /* Inicia completamente fuera del área visible a la derecha */
+    white-space: nowrap; /* Evita que el texto se envuelva a la siguiente línea */
+    overflow: hidden; /* Esconde cualquier parte del texto que exceda el contenedor */
+    animation: scrollText 10s linear infinite; /* Aplicar la animación */
+}
+
+@keyframes scrollText {
+    0% {
+        right: 100%; /* Inicio de la animación, completamente fuera de la vista a la derecha */
+    }
+    100% {
+        right: -100%; /* Final de la animación, completamente fuera de la vista a la izquierda */
+    }
+}
 header {
     section {
         div {
@@ -22,7 +42,6 @@ header {
                         font-family: 'japan';
                         color: rgb(185, 0, 160);
                         font-weight: bold;
-                        
                     }
         }
     }
