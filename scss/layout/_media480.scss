@@ -36,7 +36,7 @@
         font-size: 1.5rem;
     }
     .product-grid {
-        grid-template-columns: 1fr; /* ¡Mueve esta definición dentro de la media query! */
+        grid-template-columns: 1fr;
     }
 }
 .container {
@@ -47,4 +47,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important; 
     gap: 20px;
+}
+.promo {
+    font-size: 0.9rem; 
+    top: 10px; 
 }
