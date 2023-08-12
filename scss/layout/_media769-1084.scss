@@ -36,3 +36,6 @@
     font-size: 1.5rem;
     }
 }
+.product-grid {
+    grid-template-columns: repeat(4, 1fr);
+}

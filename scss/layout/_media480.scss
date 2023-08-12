@@ -1,13 +1,13 @@
 @media (max-width: 480px)  {
     header section div h1 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
     header section div h2,
     header section div h3 {
-    font-size: .625rem;
+        font-size: .625rem;
     }
     .navbar-brand {
-    font-size: 1rem;
+        font-size: 1rem;
     }
     #carouselExampleCaptions {
         display: flex;
@@ -22,17 +22,29 @@
         min-height: auto;
     }
     main div h2 {
-    width: 50%;
+        width: 50%;
     }
     .card-title {
-    font-size: 3rem;
+        font-size: 3rem;
     }
     .card-text {
         font-size: 10px;
         overflow: auto;
         height: 80%;
-        }
-    .futercontact {
-    font-size: 1.5rem;
     }
+    .futercontact {
+        font-size: 1.5rem;
+    }
+    .product-grid {
+        grid-template-columns: 1fr; /* ¡Mueve esta definición dentro de la media query! */
+    }
+}
+.container {
+    padding: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important; 
+    gap: 20px;
 }
